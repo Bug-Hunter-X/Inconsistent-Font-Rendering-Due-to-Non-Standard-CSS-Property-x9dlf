@@ -1,0 +1,8 @@
+The solution is to remove the invalid `font-size-adjust` property. If fine-tuning font size across different browsers is needed, alternative methods should be explored such as using specific font families known for consistent rendering and controlling other font properties such as `font-stretch` or `font-weight`.
+
+```css
+div {
+  /* font-size-adjust: 0.5;  Removed */
+  font-family: 'Arial', sans-serif; /* Example: using a specific font family */
+}
+```
